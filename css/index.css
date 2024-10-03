@@ -1,0 +1,52 @@
+.header-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.092);
+}
+
+.logo-tittle{
+    margin: 2rem 5rem; 
+    width: 5rem;
+}
+
+.home-container{
+    width: 6rem;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container img{
+    width: 2rem;
+}
+.home-container:hover span{
+    background-color: black;
+    color: #fff;
+    text-decoration: underline;
+    transition: background-color 0.5s ease;
+}
+
+.home-container:hover img{
+    content: url('../images/home-icon-white.png');
+    transition: background-color 0.5s ease;
+    background-color: black;
+}
+
+.home-container:hover{
+    background-color: black;
+    transition: background-color 0.5s ease;
+}
+
+
+#home-tittle{
+    margin-top: 0.3rem;
+}
+
+#tittle{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
